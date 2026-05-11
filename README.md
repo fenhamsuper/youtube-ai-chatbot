@@ -19,8 +19,12 @@ pip install -r backend/requirements.txt
 Create `.env` file:
 
 ```env
-OPENAI_API_KEY=your_api_key
-MODEL_NAME=gpt-4o-mini
+OPENROUTER_API_KEY=your_api_key
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+
+OPENROUTER_MODEL=inclusionai/ring-2.6-1t:free
+
+FRONTEND_URL=http://127.0.0.1:8000
 ```
 
 Run app:
